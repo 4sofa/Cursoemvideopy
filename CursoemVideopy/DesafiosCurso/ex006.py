@@ -1,4 +1,4 @@
-n1 = int(input('Escolha um number: '))
+n1 = float(input('Escolha um number: '))
 dobro = n1 * 2
 triplo = n1 * 3
 raiz = n1 ** (1/2)
