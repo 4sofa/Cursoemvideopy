@@ -1,0 +1,8 @@
+nome= input('Qual é o seu nome?')
+idade= input('quantos anos você tem?')
+peso= input('qual o seu peso?')
+cidade= input('qual a sua cidade?')
+estado= input('qual o seu estado?')
+pais= input('qual o seu pais?')
+nacionalidade= input('qual a sua nacionalidade?')
+print(nome, idade, peso, cidade, estado, pais, nacionalidade)
