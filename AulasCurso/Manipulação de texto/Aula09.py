@@ -35,3 +35,4 @@ fatia = bb[3]
 print('{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}'.format(
     frase, resultado_b, repla, aaa, bbb, ccc, titulo, avrr, avrrr, avrrrr, separa, junta, fatia, split))
 print('12'.split())
+print(separa)
