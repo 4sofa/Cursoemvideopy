@@ -10,21 +10,21 @@ while sair != 5:
     print('3 - MAIOR')
     print('4 - NOVOS NUMEROS')
     print('5 - SAIR')
-    opçao = int(input('ESCOLHA UMA OPCAO: '))
+    opcao = int(input('ESCOLHA UMA OPCAO: '))
     print(' ' * 20)
-    if opçao == 1:
+    if opcao == 1:
         print(f'{n1} + {n2} = {n1 + n2}!')
-    if opçao == 2:
+    if opcao == 2:
         print(f'{n1} * {n2} = {n1 * n2}!')
-    if opçao == 3:
+    if opcao == 3:
         if n1 > n2:
             print(f'{n1} é maior que {n2}')
         else:
             print(f'{n2} é maior que {n1}')
-    if opçao == 4:
+    if opcao == 4:
         n1 = float(input('Digite um numero: '))
         n2 = float(input('Digite um numero: '))
-    if opçao == 5:
+    if opcao == 5:
         sair = 5
 
 print('FIM DO PROGRAMA')
